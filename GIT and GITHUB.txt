@@ -1,0 +1,71 @@
+GIT and GITHUB
+**************
+installation & downloading of GIT
+-https://git-scm.com/downloads/win
+
+
+GIT commands are:-
+
+git status :- to check the status of what happend.
+
+git init 
+
+git add filename
+
+git commit -m "messages"
+
+git remote add origin path/url
+
+git push -u origin master
+
+git clone url
+
+
+what is git?
+- git is a open source version control system.
+- git is free to use.
+
+
+version control :- it is used to  managing & tracking the changes in the code / programs.
+- there is  no loss of data .
+- there will be tracking of the files which is adding and which is deleting.
+- there will be team collaboration .
+- git is a Distributed version control system.
+
+
+what is GitHub ?
+- GITHUB is a website to upload our repositories online.-
+- GITHUB is used to store the codes/data permanently.
+- GITHUB act as  a backup.
+- GITHUB provides visual interface of the repository.
+- GITHUB made collaboration easier.
+
+- git commands :-
+*****************
+- once the folder is created and created the codes then we need to use the git commands to push the code into GitHub repo.
+
+commands:-
+**********
+- git init:- this command initialize the repository in the local machine.
+
+- git status:- this command is used to check the status of the changes in the files/folder.
+
+- git add filename :- this command is used to add the untracked files to staging area(tracked files).
+- when we have multiple files to track then we can use a command called "git add ."
+- once we use this above command all untracked files become tracked files and they are ready to push into remote repo(github).
+
+- git commit -m "message" :- this command is used to write commit messages for changes done for the files.
+
+- git push :- it is used to push the tracked files from local repo into remote repo.
+- here to push the code for the very first time we need to write  "git remote add origin url"
+- then we need to push into origin branch "git push -u origin master".
+
+***Note:- these above commands is used to push the codes from local machine into remote repo.
+
+- once we push the code to the remote repo and agin if we made some changes in the files that changes will not update directly on the remote repo.
+- we have to commit again and we have to push the code again into repo by using the above commands.
+
+
+to access the repo from the local machine:-
+*******************************************
+- git clone url :- it is used to clone the copy of the repo into local machine.
